@@ -2,7 +2,7 @@ return {
   'nvim-tree/nvim-web-devicons',
   {
     'romgrk/barbar.nvim',
-    depdendencies = {
+    dependencies = {
       'nvim-tree/nvim-web-devicons',
     },
     config = function()
