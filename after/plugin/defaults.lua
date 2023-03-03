@@ -2,6 +2,9 @@ vim.opt.relativenumber = true
 
 vim.keymap.set('n', '<leader>sr', require('telescope.builtin').resume, { desc = '[S]earch [R]esume' })
 
+-- Provider
+vim.g['python3_host_prog'] = vim.fn.expand("~/.pyenv/shims/python")
+vim.g['ruby_host_prog'] = vim.fn.expand("~/.rbenv/shims/ruby")
 
 -- Better tabbing: Vmap for maintain Visual Mode after shifting > and <
 vim.keymap.set('v', '<', '<gv', {noremap = true})
