@@ -18,7 +18,7 @@ vim.keymap.set('n', '<C-Q>', ':wq!<CR>', { noremap = true })
 -- vim.keymap.set('n', '<C-c>', '<ESC>', {noremap = true})
 
 -- Move visual block
-vim.api.nvim_set_keymap('v', 'J', ":m '>+0<CR>gv=gv", { noremap = true })
+vim.api.nvim_set_keymap('v', 'J', ":m '>+1<CR>gv=gv", { noremap = true })
 vim.api.nvim_set_keymap('v', 'K', ":m '<-2<CR>gv=gv", { noremap = true })
 -- vnoremap J :m '>+1<CR>gv=gv
 -- vnoremap K :m '<-2<CR>gv=gv
